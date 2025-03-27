@@ -7,6 +7,7 @@ export default function Home() {
         <div>
             <h1  className='text-yellow-400'>This is Home Page</h1>
             <Image src={'/images/images.jpg'} alt="image" width={300} height={300}/>
+            <Image src={'/images/download.jpg'} alt="image" width={300} height={300}/>
 
             
            

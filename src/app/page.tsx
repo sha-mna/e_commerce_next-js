@@ -5,12 +5,9 @@ export default function Home() {
        
     return (
         <div>
-            <h1  className='text-yellow-400'>This is Home Page</h1>
-            <Image src={'/images/images.jpg'} alt="image" width={300} height={300}/>
+            <h1  className='text-yellow-400'>This is my Updated Home Page</h1>
+            <Image src={'/images/images.jpg'} alt="image" width={300} height={300}/><br></br>
             <Image src={'/images/download.jpg'} alt="image" width={300} height={300}/>
-
-            
-           
         </div> 
     );
 }

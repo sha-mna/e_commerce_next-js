@@ -3,6 +3,12 @@ import type { Metadata, ResolvingMetadata } from 'next';
 import { title } from 'process';
 import React from 'react'
 
+// Static
+// export const metadata: Metadata = {
+//     title: "Product detail page"
+// }
+
+// Dynamic
 export async function generateMetadata(props: any) {
     console.log("generateMetadata: ", props);
     const productId = props.params.productId;
